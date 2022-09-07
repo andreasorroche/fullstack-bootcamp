@@ -9,5 +9,6 @@
   <modules>
   	<module>basic</module>
   	<module>streams-data</module>
+  	<module>spring-core</module>
   </modules>
 </project>
