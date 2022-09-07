@@ -8,5 +8,6 @@
   <description>Módulo padre del bootcamp para fullstack en Java</description>
   <modules>
   	<module>basic</module>
+  	<module>streams-data</module>
   </modules>
 </project>
