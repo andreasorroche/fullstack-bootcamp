@@ -1,4 +1,4 @@
-package ApplicationContext;
+package Naming;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -7,14 +7,13 @@ import org.springframework.context.support.ResourceBundleMessageSource;
 
 @Configuration
 public class AccountConfig {
-	
 	@Bean
     public AccountService accountService() {
-        return new AccountService(accountRepository());
+        return new AccountService(aaa());
     }
 
     @Bean
-    public AccountRepository accountRepository() {
+    public AccountRepository aaa() {
         return new AccountRepository();
     }
 
