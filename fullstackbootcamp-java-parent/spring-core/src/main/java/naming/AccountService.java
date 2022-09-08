@@ -1,4 +1,4 @@
-package Naming;
+package naming;
 
 import java.util.Locale;
 

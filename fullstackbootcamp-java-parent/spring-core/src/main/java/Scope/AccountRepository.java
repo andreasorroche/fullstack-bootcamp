@@ -1,4 +1,4 @@
-package Naming;
+package Scope;
 
 public class AccountRepository {
 
