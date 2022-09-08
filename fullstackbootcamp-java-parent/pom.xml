@@ -4,11 +4,38 @@
   <artifactId>fullstackbootcamp-java-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Fullstack BootCamp parent</name>
-  <description>Módulo padre del bootcamp para fullstack en Java</description>
+  <name>FullStack BootCamp parent</name>
+  <description>Módulo padre del bootcamp para fullstacks en Java</description>
   <modules>
   	<module>basic</module>
+  	<module>generics-collection</module>
+  	<module>lambdas</module>
+  	<module>streams</module>
   	<module>streams-data</module>
   	<module>spring-core</module>
+  	<module>spring-jdbc</module>
+  	<module>spring-jpa</module>
+  	<module>spring-data-jpa-crud</module>
   </modules>
+  <properties>
+    	<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+        <spring.version>5.3.16</spring.version>
+        <org.springframework.data.version>2.4.2</org.springframework.data.version>
+        <spring-data-jpa.version>2.2.7.RELEASE</spring-data-jpa.version>
+        <spring-security.version>5.6.0</spring-security.version>
+        <spring-boot-starter.version>2.6.6</spring-boot-starter.version>
+        <spring-boot-starter-test.version>1.5.10.RELEASE</spring-boot-starter-test.version>
+        <mockito.spring.boot.version>1.4.4.RELEASE</mockito.spring.boot.version>
+        <hibernate.version>5.2.17.Final</hibernate.version>
+        <javax.inject.version>1</javax.inject.version>
+        <spring-boot.version>1.5.2.RELEASE</spring-boot.version>
+        <mockito.version>1.10.19</mockito.version>
+        <commons-io.version>2.11.0</commons-io.version>
+        <guava.version>31.0.1-jre</guava.version>
+        <lombok.version>1.18.20</lombok.version>
+        <awaitility.version>4.0.2</awaitility.version>
+        <servlet-api.version>4.0.0</servlet-api.version>
+        <h2.version>1.4.198</h2.version>
+    </properties>
 </project>
